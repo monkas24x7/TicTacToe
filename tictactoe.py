@@ -5,14 +5,19 @@ root = Tk()
 root.title("Tic tac toe")
 c=1
 play=True
-def restart():
+def reset():
     global c
+    c=1
     button1['text']=button2['text']=button3['text']=button4['text']=button5['text']=button6['text']=button7['text']=button8['text']=button9['text']=" "
+def switch():
+    global c 
+    c+=1
 menu = Menu(root) 
 root.config(menu=menu) 
 filemenu = Menu(menu) 
 menu.add_cascade(label='File', menu=filemenu)   
-filemenu.add_command(label='Restart', command=restart) 
+filemenu.add_command(label='Reset', command=reset)
+filemenu.add_command(label='Player Switch', command=switch) 
 filemenu.add_command(label='Exit', command=root.quit) 
 helpmenu = Menu(menu)  
 def wincon():
