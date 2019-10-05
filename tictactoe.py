@@ -18,8 +18,7 @@ filemenu = Menu(menu)
 menu.add_cascade(label='File', menu=filemenu)   
 filemenu.add_command(label='Reset', command=reset)
 filemenu.add_command(label='Player Switch', command=switch) 
-filemenu.add_command(label='Exit', command=root.quit) 
-helpmenu = Menu(menu)  
+filemenu.add_command(label='Exit', command=root.quit)   
 def wincon():
     global c
     if ((button1['text']=="X" and button2['text']=="X" and button3['text']=="X")or                     
