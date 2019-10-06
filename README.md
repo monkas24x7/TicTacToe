@@ -8,8 +8,12 @@ To exit the game click 'Exit' in 'File' menu.</br>
 The game displays when somebody wins or if it is a draw.</br>
 
 # How To Play:</br>
-step 1:Install python in your system.</br>
-step 2:Downlaod the tictactoe.py file to the desktop.</br>
-step 3:Open command prompt and enter command 'cd desktop'.</br>
+step 1:Install python in your system from "https://www.activestate.com/products/activepython/downloads/"</br>
+as it contains many modules including tkinter pre-intalled.</br>
+If tkinter is not installed, please install it.
+step 2:Downlaod the project folder to the desktop and extract the folder.</br>
+step 3:Open command prompt and enter command</br>
+'cd desktop/TicTacToe-master/TicTacToe-master'.</br>
+OR 'cd desktop/TicTacToe-master' depending on how you extracted the folder.
 step 4:Type 'python tictactoe.py' to run the game.</br>
 The game will start. </br>
