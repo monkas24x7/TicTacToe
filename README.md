@@ -9,7 +9,7 @@ The game displays when somebody wins or if it is a draw.</br>
 
 # How To Play:</br>
 step 1:Install python in your system from "https://www.activestate.com/products/activepython/downloads/"</br>
-</t>as it contains many modules including tkinter pre-intalled.</br>
+</tab>as it contains many modules including tkinter pre-intalled.</br>
 </t>If tkinter is not installed, please install it.
 step 2:Downlaod the project folder to the desktop and extract the folder.</br>
 step 3:Open command prompt and enter command</br>
